@@ -1,0 +1,2 @@
+# ASP.Net-Core-with-Dapper
+sing ASP.NET Core's built-in dependency injection, I registered `EmployeeRepository` as the concrete implementation of `IEmployeeRepository`. `EmployeeRepository` implements the abstract class `SqlGenericRepository`. The plan is for `SqlGenericRepository` to contain all the CRUD repository methods, while `IEmployeeRepository` is reserved for any Employee specific repo functions.
